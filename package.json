@@ -1,0 +1,37 @@
+{
+  "name": "wechat-nodejs",
+  "version": "0.0.1",
+  "description": "wechat media platform sdk for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xialeistudio/wechat-nodejs.git"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "author": {
+    "name": "xialeistudio",
+    "email": "xialeistudio@gmail.com",
+    "url": "http://www.ddhigh.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xialeistudio/wechat-nodejs/issues"
+  },
+  "homepage": "https://github.com/xialeistudio/wechat-nodejs#readme",
+  "engines": {
+    "node": ">=4.x"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "request": "^2.74.0",
+    "xl-cache": "^2.0.3"
+  },
+  "devDependencies": {
+    "should": "^10.0.0"
+  }
+}
