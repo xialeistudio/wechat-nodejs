@@ -1,6 +1,6 @@
 {
   "name": "wechat-nodejs",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "wechat media platform sdk for nodejs",
   "main": "index.js",
   "scripts": {
