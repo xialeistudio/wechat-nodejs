@@ -236,8 +236,8 @@ user.getList('oA-yljj5cBGSvnwFodHT1iqis7X8').then((data)=>{
 });
 ```
 ##单元测试
-1. `npm install mocha -g`
-2. 在本sdk根目录新建**config.json**，内容如下：
+`npm install mocha -g`   
+在本sdk根目录新建**config.json**，内容如下：
 ```
 {
   "wechat": {
@@ -246,7 +246,7 @@ user.getList('oA-yljj5cBGSvnwFodHT1iqis7X8').then((data)=>{
   }
 }
 ```
-3. `npm run test`
+`npm run test`
 ##授权协议
 MIT License
 ##我的博客
