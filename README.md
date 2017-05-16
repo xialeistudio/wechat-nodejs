@@ -1,10 +1,10 @@
 # 微信公众平台开发NodeJs SDK
 本SDK要求NodeJs >= 4.x，欢迎大家在issues提问。
 
-##安装
+## 安装
 `npm install wechat-nodejs`
 
-##说明
+## 说明
 使用所有sdk功能前需要初始化wechat句柄，初始化代码如下：
 ```
 const Wechat = require('wechat-nodejs').Wechat;
@@ -15,8 +15,8 @@ SDK扩展了JS原始错误类，包含message,code属性，SDK中Promise抛出�
 const AppError = require('wechat-nodejs').AppError;
 throw new AppError('参数错误',1);
 ```
-##功能列表
-###分组
+## 功能列表
+### 分组
 + 初始化Group
 ```
 const Group = require('wechat-nodejs').Group;
@@ -100,7 +100,7 @@ jssdk.getConfig('http://www.baidu.com',['onMenuShareTimeline'],false).then((conf
 	console.error(e.message,e.code);
 });
 ```
-###自定义菜单
+### 自定义菜单
 + 初始化Menu
 ```
 const Menu = require('wechat-nodejs').Menu;
@@ -235,7 +235,7 @@ user.getList('oA-yljj5cBGSvnwFodHT1iqis7X8').then((data)=>{
 	console.error(e.message,e.code);
 });
 ```
-##单元测试
+## 单元测试
 `npm install mocha -g`   
 在本sdk根目录新建**config.json**，内容如下：
 ```
@@ -247,7 +247,7 @@ user.getList('oA-yljj5cBGSvnwFodHT1iqis7X8').then((data)=>{
 }
 ```
 `npm run test`
-##授权协议
+## 授权协议
 MIT License
-##我的博客
+## 我的博客
 [每天进步一点点](http://www.ddhigh.com)
